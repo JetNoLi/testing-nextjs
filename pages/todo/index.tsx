@@ -9,6 +9,8 @@ import Link from 'next/link'
 const ToDo: NextPage = ({list} : any) => {
 
     // Or use props to dispatch actions here?
+    // Noitced for Hydration they recommend server side and client side store seperation
+    // Server and Client state separation
 
     return(
         <>
