@@ -4,7 +4,7 @@ import { Context } from 'next-redux-wrapper';
 import { useRouter } from 'next/router';
 
 const ToDoItem:NextPage = ({ item } : any) => {
-    // For child pages do I use the id to query db in the getServerProps or just use a useSelector here with state?
+    // For child pages do I use the id to query backend in the getServerProps or just use a useSelector here with state?
     
     const router = useRouter();
     const {id} = router.query;
